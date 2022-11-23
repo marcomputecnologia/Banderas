@@ -7,18 +7,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto banderas</title>
     <link rel="stylesheet" href="css/style-ejercicio1-resuelto.css">
-</head>
+    <script src="/js/script.js" defer></script>
+    <style type="text/css">
+    
 
+
+    </style>
+</head>
 <body>
-    <h1>Trabajando con banderas</h1>
-    <article id="ejercicio1">
-        <h2>Ejercicio 1: Guatemala</h2>
-        <div class="contenedor">
-            <div class="parte1"></div>
-            <div class="parte3"></div>
-            <div class="parte2"><img src="img/guatemala.png" alt="Escudo Guatemala"></div>
-        </div>
-    </article>
+    
+     para que aparesca un marco donde vamos a selecionar
+    <h1>Proyecto Banderas</h1>
+    <h2>Marvin Soto</h2>
+    <fieldset>
+        <legend id="fondo1">Seleccione Bandera a Visualizar</legend>
+       <p></p>
+       <span>Seleccionar Bandera</span>
+
+       
+       
+    <br>
+    <select name="" id="banderas_1" onchange="Banderas_paises()">
+        <option value="1">Seleccione</option>
+        <option value="2" onchange="mostrarBandera();">Guatemala</option>
+        <option value="3">India</option>
+        <option value="4">Paises Bajos</option>
+        <option value="5">Suecia</option>
+        <op value="6">suiza</op tion>
+    </select>
+
+       <!---cambio-->
+
+          <span id="lblLenguajesSeleccionado"></span>
+        
+      </fieldset>
+    
+<article id="ejercicio1">
+    <h2>Ejercicio 1: Guatemala</h2>
+    <div class="contenedor">
+        <div class="parte1"></div>
+        <div class="parte3"></div>
+        <div class="parte2"><img src="img/guatemala.png" alt="Escudo Guatemala"></div>
+    </div>
+</article>
+
+
 
     <article id="ejercicio2">
         <h2>Ejercicio 2: Níger, India</h2>
@@ -75,6 +108,8 @@
             <div class="parte3"></div>
         </div>
     </article>
+
+
 </body>
 
 </html>

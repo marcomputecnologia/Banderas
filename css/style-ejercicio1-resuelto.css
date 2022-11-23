@@ -262,3 +262,27 @@
     height: 15%;
 }
 
+/*para ocultar el contenido antes de mostrar la pagina*/
+#premio{
+    display: none;
+}
+
+#ejercicio1 {
+    display: none;
+}
+
+#ejercicio2 {
+    display: none;
+}
+
+#ejercicio3 {
+    display: none;
+}
+
+#ejercicio4 {
+    display: none;
+}
+
+#ejercicio5 {
+    display: none;
+}
