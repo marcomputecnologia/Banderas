@@ -286,3 +286,21 @@
 #ejercicio5 {
     display: none;
 }
+
+body{
+    text-align: center;
+   
+}
+ h1, h2 {
+    color:  rgb(37, 37, 117);
+    font-family: 'Roboto Mono';
+
+}
+
+#fondo1 {
+    color: rgb(46, 46, 187);
+}
+
+#banderas_1{
+    background: #76b0d6;
+}
